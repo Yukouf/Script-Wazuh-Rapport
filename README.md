@@ -1,7 +1,7 @@
 # Rapport hebdomadaire de sécurité Wazuh
 
 
-<img src="wazuh.jpg" width="70%">
+<img src="1704200958877.png" width="100%">
 
 Script Python qui lit les alertes d'un SIEM **Wazuh**, les trie et les classe
 automatiquement, puis génère et envoie par email un rapport **Excel** + **PDF**.
