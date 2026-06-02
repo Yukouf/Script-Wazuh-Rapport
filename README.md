@@ -26,14 +26,14 @@ poignée d'alertes réellement à traiter par un analyste.
 
 ### Excel — onglet de synthèse
 
-<img src="docs/excel_resume.png" width="100%">
+<img src="excel_resume.png" width="100%">
 
 Vue d'ensemble : nombre total d'alertes, combien sont graves, et celles à traiter en
 priorité. La ligne « tendance » montre l'évolution par rapport à la semaine précédente.
 
 ### Excel — détail de toutes les alertes
 
-<img src="docs/excel_alertes.png" width="100%">
+<img src="excel_alertes.png" width="100%">
 
 La liste complète. Chaque alerte reçoit un verdict et une explication ; les colonnes
 sont triables et filtrables.
@@ -41,8 +41,8 @@ sont triables et filtrables.
 ### PDF — analyse lisible, triée par priorité
 
 <p>
-  <img src="docs/pdf_p1.png" width="49%">
-  <img src="docs/pdf_p2.png" width="49%">
+  <img src="pdf_p1.png" width="49%">
+  <img src="pdf_p2.png" width="49%">
 </p>
 
 La version la plus lisible : chaque alerte importante est résumée en trois points —
@@ -135,7 +135,7 @@ sudo python3 rapport_wazuh.py --no-ai        # désactiver l'analyse IA
 ├── .env.example         # modèle de configuration (sans valeurs réelles)
 ├── .env                 # vos secrets — ignoré par git, jamais commité
 ├── .gitignore
-├── docs/                # captures utilisées dans ce README
+├──                 # captures utilisées dans ce README
 └── README.md
 ```
 
