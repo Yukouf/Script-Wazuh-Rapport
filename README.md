@@ -1,10 +1,12 @@
 # Rapport hebdomadaire de sécurité Wazuh
 
 
-<img src="wazuh.jpg" width="100%">
+<img src="wazuh.jpg" width="70%">
 
 Script Python qui lit les alertes d'un SIEM **Wazuh**, les trie et les classe
 automatiquement, puis génère et envoie par email un rapport **Excel** + **PDF**.
+
+Ce que j'ai fait, c'est un programme qui lit toutes ces alertes automatiquement, fait le tri, et décide lesquelles sont juste du bruit et lesquelles méritent vraiment qu'on s'en occupe. Le script s'aide d'une petite intelligence artificielle qui tourne directement sur le serveur en local, donc rien ne sort en public, pour expliquer chaque alerte de manière simple et non technique. Et il y a une règle de sécurité : si une alerte touche à quelque chose de potentiellement grave, elle est toujours mise en avant, jamais ignorée, que cela soit en excel ou en PDF. Le script s'occupe d'envoyer un mail tout les jours à la même heure dans une boîte mail.
 
 L'objectif : transformer des centaines de milliers d'alertes hebdomadaires en une
 poignée d'alertes réellement à traiter par un analyste.
