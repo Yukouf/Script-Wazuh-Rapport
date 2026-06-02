@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+rapports_wazuh/
+historique.json
+*.xlsx
+*.pdf
