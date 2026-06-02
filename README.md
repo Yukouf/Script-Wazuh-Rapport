@@ -132,6 +132,13 @@ sudo python3 rapport_wazuh.py --no-ai        # désactiver l'analyse IA
 
 ---
 
+## Documentation
+
+Le fonctionnement détaillé, **code et explications réunis section par section**, est dans
+[`GUIDE_TECHNIQUE_rapport_wazuh.md`](GUIDE_TECHNIQUE_rapport_wazuh.md).
+
+---
+
 ## Structure du projet
 
 ```
