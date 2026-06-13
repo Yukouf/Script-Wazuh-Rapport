@@ -27,6 +27,8 @@ poignée d'alertes réellement à traiter par un analyste.
 - Rapport **Excel** (synthèse + détail filtrable) et **PDF** (analyse lisible)
 - **Envoi automatique par email** à l'équipe
 
+<img src="suricata_wazuh_integration.png" width="100%">
+
 ---
 
 ## Aperçu des livrables
