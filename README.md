@@ -3,6 +3,8 @@
 
 <img src="1704200958877.png" width="100%">
 
+Wazuh c'est une plateforme SIEM/XDR open source. Elle collecte les logs des agents installés sur les machines, les corrèle avec des règles de détection, et génère des alertes en temps réel. Elle fait aussi du FIM, de la détection de vulnérabilités, et de la conformité.
+
 Script Python qui lit les alertes d'un SIEM **Wazuh**, les trie et les classe
 automatiquement, puis génère et envoie par email un rapport **Excel** + **PDF**.
 
